@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-image: url("../IMAGES/wallpaper1.jpg");
+    background-position: 50% 70%;
+    background-attachment: fixed;
+}
+
+input{
+    display: block; /*Quebrar a linha dos inputs*/
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    font-size: 15pt;
+    padding: 10px 20px;
+ }
+ 
+div#corpo-from{
+    
+    background-image: linear-gradient(30deg, #19657D, #FCCF96 );
+    width: 420px;
+    margin: 150px auto 0px auto;    
+    
+    /*Efeito de Sombra */   
+    -webkit-box-shadow: -1px 0px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    -1px 0px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         -1px 0px 10px 0px rgba(50, 50, 50, 0.75);
+ }
+
+a{
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #042544;
+}
+
+.title-form{
+    color:white;
+    padding: 20px;
+}
+/*Aplicar degrade de Branco e Azul
