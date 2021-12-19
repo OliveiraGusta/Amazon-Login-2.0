@@ -1,7 +1,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="utf-8"/>
-    <title>Login e Senha</title>
+    <title>SISTEMA DE LOGIN</title>
     <link rel="stylesheet" href="CSS/style.css">
 
 </head>
