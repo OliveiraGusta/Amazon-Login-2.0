@@ -7,15 +7,15 @@
 </head>
 <body>
     <div id="corpo-from">
-    <h3 id="bemvindo" class="title-form">Bem-vindo(a) a minha plataforma.</h3>
-    <h1 class="title-form">Faça seu Login</h1>
+    <h4 id="bemvindo" class="title-form">Bem-vindo(a) a minha plataforma.</h4>
+    <h2 class="title-form">Faça seu Login</h2>
 
 
         <form method="POST" Saction="dados.php">
             <input type="email" placeholder="E-mail">
             <input type="password" placeholder="Sua senha">
             <input type="submit" value="ENTRAR">
-            <h4 class="title-form"> Não tem uma conta? <a href="">CADASTRE-SE AGORA!</a>
+            <h5 class="title-form"> Não tem uma conta? <a href="">CADASTRE-SE AGORA!</a>
         </form>
     </div>
     
