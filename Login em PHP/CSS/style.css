@@ -43,6 +43,9 @@ a:hover{
     text-decoration: underline;
     color: #042544;
 }
+a:active{
+    color:white;
+}
 
 .title-form{
     color:white;
