@@ -36,6 +36,10 @@ div#corpo-from{
     box-shadow:         -1px 0px 10px 0px rgba(50, 50, 50, 0.75);
  }
 
+a{
+    color:#042544;
+}
+
 a:hover{
     text-decoration: underline;
     color: #042544;
