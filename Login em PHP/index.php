@@ -7,7 +7,7 @@
 </head>
 <body>
     <div id="corpo-from">
-    <h3 class="title-form">Bem-vindo(a) a minha plataforma.</h3>
+    <h3 id="bemvindo" class="title-form">Bem-vindo(a) a minha plataforma.</h3>
     <h1 class="title-form">Faça seu Login</h1>
 
 
