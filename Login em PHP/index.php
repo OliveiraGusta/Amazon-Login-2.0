@@ -14,8 +14,9 @@
             <input type="email" placeholder="Email">
             <input type="password" placeholder="Senha">
             <input type="submit" value="Login">
-            <h4 class="title-form"> Não tem uma conta? <a href="">CRIE UMA</a>
+            <h4 class="title-form"> Não tem uma conta? <a href="">CADASTRE-SE AGORA!</a>
         </form>
     </div>
+    
 </body>
 </html> 
