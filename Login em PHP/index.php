@@ -6,11 +6,10 @@
 
 </head>
 <body>
+
     <div id="corpo-from">
-    <h4 id="bemvindo" class="title-form">Bem-vindo(a) a minha plataforma.</h4>
+    <h4 id="facalogin" class="title-form">Bem-vindo(a) a minha plataforma.</h4>
     <h2 class="title-form">Faça seu Login</h2>
-
-
         <form method="POST" Saction="dados.php">
             <input type="email" placeholder="E-mail">
             <input type="password" placeholder="Sua senha">
@@ -18,6 +17,5 @@
             <h5 class="title-form"> Não tem uma conta? <a href="">CADASTRE-SE AGORA!</a>
         </form>
     </div>
-    
 </body>
 </html> 

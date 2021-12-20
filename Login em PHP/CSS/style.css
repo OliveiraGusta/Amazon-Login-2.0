@@ -10,9 +10,8 @@
 }
 
 body{
-    background-image: url("../IMAGES/wallpaper1.jpg");
-    background-position: 50% 70%;
-    background-attachment: fixed;
+        background-image: url("../IMAGES/wallpaper1.jpg");
+        background-size: cover;
 }
 
 input{
@@ -51,7 +50,7 @@ a:active{
     color:white;
     padding: 15px;
 }
-h3#bemvindo{
+h4#facalogin{
     padding-bottom: 1px;
     /*Deixar o Bem vindo... mais proximo do Faça seu Login*/
 }
