@@ -1,8 +1,9 @@
 <html lang="pt-br">
 <head>
     <meta charset="utf-8"/>
-    <title>SISTEMA DE LOGIN</title>
+    <title>Projeto login em PHP</title>
     <link rel="stylesheet" href="CSS/style.css">
+    
 
 </head>
 <body>  
@@ -16,7 +17,7 @@
             <input type="password" placeholder="Sua senha">
             <input type="password" placeholder="Confirme sua senha">
             <input type="submit" value="CADASTRE">
-            <h5 class="title-form" id="cadastrar"> Já tem uma conta? <a href="index.php">LOGIN</a>
+            <h5 class="title-form" id="cadastrar"> Já tem uma conta? <a href="index.php">FAÇA SEU LOGIN</a>
         </form>
     </div>
 </body>

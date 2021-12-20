@@ -1,8 +1,9 @@
 <html lang="pt-br">
 <head>
     <meta charset="utf-8"/>
-    <title>SISTEMA DE LOGIN</title>
+    <title>Projeto login em PHP</title>
     <link rel="stylesheet" href="CSS/style.css">
+    
 
 </head>
 <body>  
