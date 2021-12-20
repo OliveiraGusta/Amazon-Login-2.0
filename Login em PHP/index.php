@@ -5,16 +5,16 @@
     <link rel="stylesheet" href="CSS/style.css">
 
 </head>
-<body>
+<body>  
 
     <div id="corpo-from">
-    <h4 id="facalogin" class="title-form">Bem-vindo(a) a minha plataforma.</h4>
+    <h4 class="title-form" id="facalogin">Bem-vindo(a) a minha plataforma.</h4>
     <h2 class="title-form">Faça seu Login</h2>
         <form method="POST" Saction="dados.php">
             <input type="email" placeholder="E-mail">
             <input type="password" placeholder="Sua senha">
             <input type="submit" value="ENTRAR">
-            <h5 class="title-form"> Não tem uma conta? <a href="">CADASTRE-SE AGORA!</a>
+            <h5 class="title-form" id="cadastrar"> Não tem uma conta? <a href="">CADASTRE-SE AGORA!</a>
         </form>
     </div>
 </body>
