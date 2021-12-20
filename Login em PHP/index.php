@@ -14,7 +14,7 @@
             <input type="email" placeholder="E-mail">
             <input type="password" placeholder="Sua senha">
             <input type="submit" value="ENTRAR">
-            <h5 class="title-form" id="cadastrar"> Não tem uma conta? <a href="">CADASTRE-SE AGORA!</a>
+            <h5 class="title-form" id="cadastrar"> Não tem uma conta? <a href="register.php">CADASTRE-SE AGORA!</a>
         </form>
     </div>
 </body>
