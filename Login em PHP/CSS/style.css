@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
-/*top , right , bottom , left*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap'); /*Fonte Open Sans*/
 
 *{
     margin: 0px;
@@ -27,6 +25,7 @@ input{
 input[type="submit"]{
     background-color: #F6D284;
     color: #01112A;
+    cursor: pointer;
    
 }
  
@@ -36,7 +35,7 @@ div#corpo-from{
     width: 420px;
     margin: 150px auto 0px auto;    
     
-    /*Efeito de Sombra */   
+    /*Efeito de Sombra em diferentes navegadores */   
     -webkit-box-shadow: -1px 0px 10px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    -1px 0px 10px 0px rgba(50, 50, 50, 0.75);
     box-shadow:         -1px 0px 10px 0px rgba(50, 50, 50, 0.75);}
@@ -68,7 +67,7 @@ a:active{
     padding-bottom: 12px;
 }
 
-/*Cor dos textos dos Placeholder´s, funcinando com todos os navegadores */ 
+/*Cor dos textos dos Placeholder´s em diferentes navegadores*/ 
 
 ::-webkit-input-placeholder{
     color:#fff;
