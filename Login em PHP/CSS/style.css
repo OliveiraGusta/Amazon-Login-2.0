@@ -5,14 +5,11 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
-    text-decoration:none;
-
-}
+    text-decoration:none;}
 
 body{
         background-image: url("../IMAGES/wallpaper1.jpg");
-        background-size: cover;
-}
+        background-size: cover;}
 
 input{
     display: block; /*Quebrar a linha dos inputs*/
@@ -20,11 +17,10 @@ input{
     width: 400px;
     margin: 10px;
     font-size: 15pt;
-    padding: 10px 20px;
- }
+    padding: 10px 20px;}
  
 div#corpo-from{
-    
+
     background-image:linear-gradient(150deg, #7D3F58, #022B49);
     width: 420px;
     margin: 150px auto 0px auto;    
@@ -32,25 +28,21 @@ div#corpo-from{
     /*Efeito de Sombra */   
     -webkit-box-shadow: -1px 0px 10px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    -1px 0px 10px 0px rgba(50, 50, 50, 0.75);
-    box-shadow:         -1px 0px 10px 0px rgba(50, 50, 50, 0.75);
- }
+    box-shadow:         -1px 0px 10px 0px rgba(50, 50, 50, 0.75);}
 
 a{
-    color:white;
-}
+    color:white;}
 
 a:hover{
-    text-decoration: underline;
-}
+    text-decoration: underline;}
+
 a:active{
-    color:white;
-}
+    color:white;}
 
 .title-form{
     color:white;
-    padding: 15px;
-}
+    padding: 15px;}
+
 h4#facalogin{
     padding-bottom: 1px;
-    /*Deixar o Bem vindo... mais proximo do Faça seu Login*/
-}
+    /*Deixar o Bem vindo... mais proximo do Faça seu Login*/}
