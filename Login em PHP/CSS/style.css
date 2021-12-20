@@ -21,10 +21,12 @@ input{
     font-size: 15pt;
     padding: 10px 20px;
     background-color: rgba(255, 255, 255, 0.1);
-    border: none;}
+    border: none;
+    outline: none;}
 
 input[type="submit"]{
     background-color: #F6D284;
+    color: #01112A;
    
 }
  
