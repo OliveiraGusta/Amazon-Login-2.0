@@ -12,8 +12,8 @@
     <h4 class="title-form" id="facalogin">Bem-vindo(a) a plataforma.</h4>
     <h2 class="title-form">Faça seu Login</h2>
         <form method="POST" Saction="data.php">
-            <input type="email" placeholder="E-mail">
-            <input type="password" placeholder="Sua senha">
+            <input type="email" name="email" placeholder="E-mail" maxlength="40">
+            <input type="password" name="password" placeholder="Sua senha"  maxlength="20">
             <input type="submit" value="ENTRAR">
             <h5 class="title-form" id="cadastrar"> Não tem uma conta? <a href="register.php">CADASTRE-SE AGORA!</a>
         </form>
