@@ -11,7 +11,7 @@ Class User
         global $msgError;
         global $pdo;
         try{
-            $pdo = new PDO("mysql:dbname=".$name.";host=".$host,$user,$password);
+            $pdo = new PDO("mysql:dbname=".$name.";host=".$host, $user, $password);
         } catch (PDOException $e){
             $msgError = $e->getMessage();
         }
@@ -47,9 +47,9 @@ Class User
     {
         global $pdo;
 
-        $sql = $pdo->prepare("SELECT id_user FROM users WHERE email = :e AND password = :s");
+        $sql = $pdo->prepare("SELECT id_user FROM users WHERE email = :e AND password = :p");
         $sql->bindValue (":e", $email);
-        $sql->bindValue (":s", md5($password));
+        $sql->bindValue (":p", md5($password));
         $sql->execute();
         if($sql->rowCount() > 0) //rowCount, contador de linhas do id_user
         {
