@@ -5,6 +5,7 @@ Class User
     private $pdo;
     public $msgError = "";
 
+    //conexão
     public function connection($name, $host, $user, $password)
     {
         global $msgError;
@@ -15,7 +16,7 @@ Class User
             $msgError = $e->getMessage();
         }
     }
-
+    //cadastro
     public function register($name, $email, $cpf, $password)
     {
         global $pdo;
@@ -40,6 +41,8 @@ Class User
         }
         
     }
+
+    //login
     public function login($email, $password)
     {
         global $pdo;
