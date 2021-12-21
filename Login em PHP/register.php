@@ -14,7 +14,7 @@
         <form method="POST" Saction="data.php">
             <input type="text" placeholder="Nome" maxlength="30">
             <input type="email" placeholder="E-mail" maxlength="40"> 
-            <input type="tel" placeholder="CPF">
+            <input type="tel" placeholder="CPF" pattern="[0-9]{11}">
             <input type="password" placeholder="Sua senha" maxlength="32">
             <input type="password" placeholder="Confirme sua senha" maxlength="32" >
             <input type="submit" value="CADASTRE">
