@@ -15,7 +15,7 @@ input{
     height: 55px;
     width: 400px;
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 15pt;
     padding: 10px 20px;
     background-color: rgba(255, 255, 255, 0.1);
@@ -68,12 +68,12 @@ a:active{
     /*top , right , bottom , left*/
 }
     
-.title-form#facalogin{
+.title-form#login{
     padding-top: 25px;
     padding-bottom: 0px;
 }
 
-.title-form#cadastrar{
+.title-form#register{
     padding-top: 8px;
     padding-bottom: 12px;
 }
