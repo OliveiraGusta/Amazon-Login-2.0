@@ -17,7 +17,7 @@
             <input type="password" placeholder="Sua senha">
             <input type="password" placeholder="Confirme sua senha">
             <input type="submit" value="CADASTRE">
-            <h5 class="title-form" id="cadastrar"> Já tem uma conta? <a href="index.php">FAÇA SEU LOGIN</a>
+            <h5 class="title-form" id="cadastrar"> Já tem uma conta? <a href="index.php">FAÇA SEU LOGIN!</a>
         </form>
     </div>
 </body>
