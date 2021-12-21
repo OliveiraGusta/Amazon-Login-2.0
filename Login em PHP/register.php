@@ -12,10 +12,11 @@
     <h4 class="title-form" id="facalogin">Bem-vindo(a) a plataforma.</h4>
     <h2 class="title-form">Cadastre-se</h2>
         <form method="POST" Saction="data.php">
-            <input type="text" placeholder="Nome">
-            <input type="email" placeholder="E-mail">
-            <input type="password" placeholder="Sua senha">
-            <input type="password" placeholder="Confirme sua senha">
+            <input type="text" placeholder="Nome" maxlength="30">
+            <input type="email" placeholder="E-mail" maxlength="40"> 
+            <input type="tel" placeholder="CPF">
+            <input type="password" placeholder="Sua senha" maxlength="32">
+            <input type="password" placeholder="Confirme sua senha" maxlength="32" >
             <input type="submit" value="CADASTRE">
             <h5 class="title-form" id="cadastrar"> Já tem uma conta? <a href="index.php">FAÇA SEU LOGIN!</a>
         </form>
