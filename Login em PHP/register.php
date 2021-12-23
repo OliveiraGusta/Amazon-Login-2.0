@@ -8,7 +8,7 @@
 </head>
 <body>  
 
-    <div id="body-from-regis">
+    <div id="body-form-regis">
     <h4 class="title-form" id="login">Bem-vindo(a) a plataforma.</h4>
     <h2 class="title-form">Cadastre-se</h2>
         <form method="POST">
