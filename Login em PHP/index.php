@@ -24,47 +24,7 @@
         </form>
     </div>
 <?php
-//Verificar se a pessoa clicou no submit
-if(isset($_POST['name']))
-{
-    $name = addslashes ($_POST['name']);
-    $email = addslashes ($_POST['email']);
-    $cpf = addslashes ($_POST['cpf']);
-    $password = addslashes ($_POST['password']);
-    $confPassword = addslashes ($_POST['confPassword']);
 
-    //Verificar campo vazio
-
-    if(!empty($name) && !empty($email) && !empty($cpf) && !empty($password) && !empty($confPassword))
-    {
-        $u->connection("amazon_login","localhost","root","vertrigo");
-        if($u->msgError == "")//Esta certo
-        {
-            if($password == $confPassword)
-            {
-               if( $u->register($name,$email,$cpf,$password))
-               {
-                echo"Cadastrado com sucesso";
-               }
-               else
-               {
-                echo"Email já cadastrado!";
-               }
-                
-            }
-            else
-            {
-                echo "Senha e Confirmar senha são diferentes"; 
-            }
-        }
-        else{
-            echo"ERRO: ".$u->msgError;
-        }
-    }
-    else{
-    echo "Preencha todos os campos!";
-    }
-}
 ?>
 </body>
 </html> 
