@@ -1,8 +1,3 @@
-<?php
- require_once 'CLASS/users.php';
- $u = new User
-?>
-
 <html lang="pt-br">
 <head>
     <meta charset="utf-8"/>
