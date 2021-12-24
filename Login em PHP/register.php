@@ -30,7 +30,8 @@
     </div>
 
 <?php
-if(isset($_POST['name'])){
+if(isset($_POST['name']))
+{
     $name = addslashes($_POST['name']);
     $email = addslashes($_POST['email']);
     $cpf = addslashes($_POST['cpf']);
