@@ -32,7 +32,7 @@ Class User{
                 $sql->bindValue(":n", $name);
                 $sql->bindValue(":e", $email);
                 $sql->bindValue(":c", $cpf);
-                $sql->bindValue(":p", $password);
+                $sql->bindValue(":p", md5($password));
                 $sql->execute();
                 return true;
         }
@@ -42,8 +42,22 @@ Class User{
 
     public function login($email,$password){
         global $pdo;
+        
+        $sql = $pdo ->prepare("SELECT id_user FROM users WHERE email = :e password :p");
+        $sql->bindValue(" :e", $email);
+        $sql->bindValue(" :p", md5($password));
+        $sql->execute();
+            
+            if($sql->rowCount() > 0){
+                $data = $sql->fetch();
+                session_start();
+                $_SESSION['id_user'] = $data['id_user'];
+                return true;
 
-
+            }
+            else{
+                return false;
+            }
     }
 }
 

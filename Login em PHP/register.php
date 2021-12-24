@@ -1,3 +1,10 @@
+<?php
+    require_once 'CLASS/users.php';
+    $u = new User;
+
+?>
+
+
 <html lang="pt-br">
 <head>
     <meta charset="utf-8"/>
@@ -21,9 +28,47 @@
             <h5 class="title-form" id="register"> Já tem uma conta? <a href="index.php">FAÇA SEU LOGIN!</a>
         </form>
     </div>
-<?php
 
+<?php
+if(isset($_POST['name'])){
+    $name = addslashes($_POST['name']);
+    $email = addslashes($_POST['email']);
+    $cpf = addslashes($_POST['cpf']);
+    $password = addslashes($_POST['password']);
+    $confPassword = addslashes($_POST['confPassword']);
+        if(!empty($name) && !empty($email) && !empty($cpf) && !empty($password) && !empty($confPassword)){
+            $u->connection("amazon_login", "localhost","root","");
+            if($u->msgError == "")
+            {
+                if($password == $confPassword)
+                {
+                    if($u->register($name,$email,$cpf,$password,$confPassword))
+                    {
+                        echo "Cadastrado com Sucesso";
+                    }
+                    else
+                    {
+                        echo "Email já cadastrado";
+                    }
+
+                }
+
+                else
+                {
+                    echo "Senha e confirmar senha são diferentes!";
+                }
+            }
+            else{
+                echo "Erro: ".$u->msgErro;
+            }
+
+        }
+        else{
+            echo "Por favor, preencha todos os campos";
+        }
+}
 
 ?>
+
 </body>
 </html> 
