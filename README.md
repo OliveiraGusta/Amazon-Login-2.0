@@ -1,4 +1,7 @@
-## Amazon Login
+## Prime Video 2.0
 
-Releitura da pagina de Login da Amazon
+Criação da pagina pré login da Prime Video
+Criação da pagina de login e regristro da Prime Video
+Criação da pagina home da Prime Video
+
 Projeto para treinar PHP
