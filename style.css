@@ -1,0 +1,52 @@
+:root {
+    --nav-background: #0f171e;
+    --text-nav-bar: #F2F4F6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: var(--text-nav-bar);
+    text-decoration: none;
+}
+
+a::hover {
+    opacity: 0.7;
+    font-size: 50 px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--nav-background);
+    height: 8vh;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+    
+}
+
+.mobile-menu {
+    display:none;
+    cursor: pointer;
+}
+.mobile-menu a{
+    width: 32px;
+    height: 2px;
+    color: var(--text-nav-bar);
+    margin: 8px;
+}
+
+main{
+    background: url('/assets/prime-wallpaper.jpg')
+        no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+}
